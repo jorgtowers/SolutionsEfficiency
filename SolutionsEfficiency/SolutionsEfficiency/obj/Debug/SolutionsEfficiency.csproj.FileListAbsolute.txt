@@ -1,0 +1,6 @@
+E:\Projects\VS2013\SolutionsEfficiency\SolutionsEfficiency\bin\SolutionsEfficiency.dll.config
+E:\Projects\VS2013\SolutionsEfficiency\SolutionsEfficiency\bin\SolutionsEfficiency.dll
+E:\Projects\VS2013\SolutionsEfficiency\SolutionsEfficiency\bin\SolutionsEfficiency.pdb
+E:\Projects\VS2013\SolutionsEfficiency\SolutionsEfficiency\obj\Debug\SolutionsEfficiency.csprojResolveAssemblyReference.cache
+E:\Projects\VS2013\SolutionsEfficiency\SolutionsEfficiency\obj\Debug\SolutionsEfficiency.dll
+E:\Projects\VS2013\SolutionsEfficiency\SolutionsEfficiency\obj\Debug\SolutionsEfficiency.pdb

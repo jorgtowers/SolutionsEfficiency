@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="SolutionsEfficiency">
+<head>
+    <title></title>
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/Categorias.js"></script>
+    <script src="/Scripts/Preguntas.js"></script>
+    <script src="/Scripts/jquery-1.9.1.min.js"></script>
+    <script src="/Scripts/highcharts.js"></script>
+    <script src="/Scripts/highcharts-more.js"></script>
+    <script src="/Scripts/App.js"></script>
+    <link href="/Styles/Site.css" rel="stylesheet" />
+    <script>var AngularJS = angular.module('SolutionsEfficiency', []);</script>
+</head>
+<body>
+    <div class="site-layout">
+        <div class="site-lateral">
+            <h1>
+                <img src="/Images/2346728%20(1).png" />
+
+            </h1>
+            <h2>Solutions Efficiency</h2>
+            <p>Portal que mide las bondades y carencias en soluciones implementadas o por implementar.</p>
+        </div>
+        <div class="site-main">
+
+            <div ng-controller="ctlrPreguntas">
+                <ul id="listadoPreguntas">
+                    <li ng-repeat="categoria in Preguntas">
+                        <h3> {{categoria.Categoria}}                               </h3>
+                        <ul>
+                            <li ng-repeat="pregunta in categoria.Preguntas">
+                                <label><input type="checkbox" name="checkbox" value="{{categoria.Categoria}}">{{pregunta.Pregunta}}</label>
+                            </li>
+                        </ul>
+
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div id="grafico" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
+
+
+        </div>
+    </div>
+    <script>
+        AngularJS.controller('ctlrPreguntas', ['$scope', function (_) {
+            _.Preguntas = Preguntas;
+        }]);
+    </script>
+    <script>
+        document.onreadystatechange = function () {
+            if (document.readyState == "complete") {
+
+            }
+        }
+    </script>
+</body>
+</html>

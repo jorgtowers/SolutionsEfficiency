@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\wwwroot\solutionsefficiency</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/SolutionsEfficiency.dll">
+      <publishTime>04/03/2015 09:05:22</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.eot">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.svg">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.ttf">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/fontawesome-webfont.woff">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/FontAwesome.otf">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/04/2015 22:55:29</publishTime>
+    </File>
+    <File Include="Images/2346728 %281%29.png">
+      <publishTime>03/04/2015 01:04:52</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/03/2015 01:21:59</publishTime>
+    </File>
+    <File Include="Pages/SolutionsEfficiency.html">
+      <publishTime>04/03/2015 01:21:59</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js">
+      <publishTime>02/04/2015 22:53:28</publishTime>
+    </File>
+    <File Include="Scripts/App.js">
+      <publishTime>03/04/2015 01:02:03</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>02/04/2015 22:53:28</publishTime>
+    </File>
+    <File Include="Scripts/Categorias.js">
+      <publishTime>03/04/2015 00:23:57</publishTime>
+    </File>
+    <File Include="Scripts/highcharts-more.js">
+      <publishTime>02/04/2015 23:57:10</publishTime>
+    </File>
+    <File Include="Scripts/highcharts.js">
+      <publishTime>02/04/2015 22:53:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>02/04/2015 22:53:29</publishTime>
+    </File>
+    <File Include="Scripts/Preguntas.js">
+      <publishTime>02/04/2015 23:49:33</publishTime>
+    </File>
+    <File Include="Styles/bootstrap.min.css">
+      <publishTime>02/04/2015 22:54:58</publishTime>
+    </File>
+    <File Include="Styles/font-awesome.min.css">
+      <publishTime>02/04/2015 22:54:58</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>03/04/2015 01:25:51</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/04/2015 01:28:06</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
